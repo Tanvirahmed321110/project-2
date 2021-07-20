@@ -6,7 +6,7 @@ main{display: flex;
       justify-content: center;}
 
       
-p,a{font-size: 16px;font-weight:500;
+p,a{font-size: 17px;font-weight:500;
     font-family: 'Times New Roman', Times, serif;color: blue;}      
     p{color:maroon;}
 
@@ -66,5 +66,13 @@ p,a{font-size: 16px;font-weight:500;
        padding:31px;margin-top: 35px;
        box-sizing: border-box;}
 
+
+  .icon-main{display: flex;align-items: center;justify-content: center;}     
   .courses-img img{width: 224px;
-                height: 104px;}
+                height: 104px;margin: 0 auto;padding-right: 6px;}
+
+  .icon{color:orangered;font-size: 16px;}                
+  .duration{color: black;font-size: 12px;}   
+  
+  .courses{display: grid;
+               grid-template-columns: repeat(3,1fr);}
