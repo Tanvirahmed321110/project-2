@@ -1,0 +1,12 @@
+  
+  body{background-color: #f3f1ff;}
+ /* players main */
+
+  .players{display: grid;
+              grid-template-columns: repeat(3,1fr);
+              font-family: font-family: 'Noto Sans KR', sans-serif;}
+    
+   .player img{padding:8px;height: 66px; width: 66px;}           
+   .player h4{padding: 0 8px;font-family: 'Noto Sans KR', sans-serif ;}      
+   .player{display: flex;
+          align-items: center;}            
