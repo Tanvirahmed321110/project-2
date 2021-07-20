@@ -1,12 +1,30 @@
-  
-  body{background-color: #f3f1ff;}
- /* players main */
 
-  .players{display: grid;
-              grid-template-columns: repeat(3,1fr);
-              font-family: font-family: 'Noto Sans KR', sans-serif;}
-    
-   .player img{padding:8px;height: 66px; width: 66px;}           
-   .player h4{padding: 0 8px;font-family: 'Noto Sans KR', sans-serif ;}      
-   .player{display: flex;
-          align-items: center;}            
+body{background-color: #f3f1ff;}
+main{display: flex;
+      justify-content: center;}
+
+p,a{font-size: small;font-weight:normal;
+    font-family: 'Times New Roman', Times, serif;}      
+
+
+/* players main */
+
+  .s-title{color: #562eff;padding-bottom: 40px;
+          font-size: 25px;}
+ .players{display: grid;
+             grid-template-columns: repeat(3,1fr);
+             grid-row-gap: 30px;
+             font-family :'Noto Sans KR', sans-serif; }
+   
+  .players-main{background-color:#ffffff; 
+                 width: 860px;
+                 font-family: 'Noto Sans KR', sans-serif ;
+                 padding:31px;
+                 box-sizing: border-box;}   
+
+  .player img{padding:12px;height: 66px; width: 66px;}           
+  .player h4{padding: 0 8px;}      
+  .player{display: flex;
+         align-items: center;}
+  
+   hr{border: #562eff 1px solid;margin-top: 25px;}      
