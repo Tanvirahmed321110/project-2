@@ -1,30 +1,70 @@
 
-body{background-color: #f3f1ff;}
+body{background-color: #f3f1ff;   font-family :'Noto Sans KR', sans-serif;}
 main{display: flex;
+      flex-direction: column;
+      align-items: center;
       justify-content: center;}
 
-p,a{font-size: small;font-weight:normal;
-    font-family: 'Times New Roman', Times, serif;}      
-
+      
+p,a{font-size: 16px;font-weight:500;
+    font-family: 'Times New Roman', Times, serif;color: blue;}      
+    p{color:maroon;}
 
 /* players main */
 
   .s-title{color: #562eff;padding-bottom: 40px;
           font-size: 25px;}
+
+  .players-main{background-color:#ffffff; 
+            width: 870px;
+           font-family: 'Noto Sans KR', sans-serif ;
+           padding:31px;
+           box-sizing: border-box;
+          border-radius: 10px;}  
+
  .players{display: grid;
              grid-template-columns: repeat(3,1fr);
              grid-row-gap: 30px;
-             font-family :'Noto Sans KR', sans-serif; }
+           }
    
-  .players-main{background-color:#ffffff; 
-                 width: 860px;
-                 font-family: 'Noto Sans KR', sans-serif ;
-                 padding:31px;
-                 box-sizing: border-box;}   
+
 
   .player img{padding:12px;height: 66px; width: 66px;}           
   .player h4{padding: 0 8px;}      
   .player{display: flex;
          align-items: center;}
   
-   hr{border: #562eff 1px solid;margin-top: 25px;}      
+   hr{border: #562eff 1px solid;margin-top: 25px;margin-bottom: 70px;}    
+
+   /* players main end */
+   /* top block start */
+ 
+  .s-title h3{padding-bottom: 18px;} 
+ .block-img img{width: 177px;
+               height: 117px;}
+ 
+ .blocks{display: grid;
+         grid-template-columns:repeat(2,1fr);
+         grid-row-gap: 30px;
+      
+    }  
+    
+    
+ .block{display: flex;}   
+ 
+ .block-data{margin-left: 16px;}
+ .block-data h3{color: black;
+                font-size: 21px;}
+
+
+    /* top blogs end */
+    /* latestr courses start */
+
+    .section-2{background-color:#ffffff; 
+        width: 870px;
+       font-family: 'Noto Sans KR', sans-serif ;
+       padding:31px;margin-top: 35px;
+       box-sizing: border-box;}
+
+  .courses-img img{width: 224px;
+                height: 104px;}
