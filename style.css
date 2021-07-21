@@ -12,17 +12,29 @@ p,a{font-size: 17px;font-weight:500;
     p{color:maroon;}
 
   /* hedar-start */
-     
+   
+  
 nav{background-color: #562eff;height: 90px;padding: 0px;width: 100%;margin: 0;
     display: flex;justify-content: space-between; }
- 
+.nav-bar a{color: #ffffff;font-size:21px;
+  font-weight:normal;padding: 8px;font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;} 
+.nav-bar a:hover{background-color: aqua;} 
+.nav-bar:hover{background-color: black;} 
+nav:hover{background-color: crimson;}
+.nav-img img:hover{border: darkblue 5px dotted;}
+
+
+.nav-bar{padding: 27px 6px;}
  .hedar-main{display: flex;}
 .symbol{font-size: 48px;padding:7px 10px;padding-left: 230px;}
 
-.header-title h2{color:#ffffff;font-size: 29px;font-family:monospace;font-weight: 400;
+.header-title h2{color:#ffffff;font-size: 31px;font-family:monospace;font-weight: 400;
              padding: 23px 0px}
-.nav-img img{width: 66px;height: 66px;border-radius: 40px;}
 
+.nav-img img{width: 75px;height: 75px;border-radius: 40px;border: rgb(37, 51, 24) 3px solid;
+             position: relative;right: 160px;}
+.nav-img{padding: 5px 0px;}
 /* players main */
 
   .s-title{color: #562eff;padding-bottom: 40px;
