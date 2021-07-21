@@ -115,6 +115,27 @@ nav:hover{background-color: crimson;}
                  margin: 0 auto;
                  font-family:cursive;
                  font-size: 25px;}
-       
+ footer:hover{background-color: #562eff;}                
+ article:hover{background-color: rgb(36, 16, 16);}      
  .google{width: 80px;height: 42px;border-radius: 30px;}          
  article{text-align: center;padding: 8px;}      
+
+
+ /* media query */
+ @media screen and (max-width:688px) {
+nav{display:flex; justify-content: center;
+   width: 100%;position: relative;height: 200px;}
+   .symbol{position: relative;right: 200px;}
+   .header-title{position: relative;right: 200px;bottom: 10px;}
+   .nav-bar{position: relative;right: 160px;width: 200px;}
+   .nav-bar a{font-size: 12px;display:grid;}
+   .nav-img{position: relative;left: 106px;}
+
+   .players-main{height: 1200px;width: 100%;display: grid;grid-template-columns:auto;padding-left: 5%;}
+
+   .blocks{display: grid;grid-template-columns: auto;}
+   .section-2{display: grid;grid-template-columns: auto;width: 100%;padding-left: 5%;}
+   .courses{display: grid;grid-template-columns: auto;}
+   .icon-main{padding-left: 15%;padding-top: 5px;}
+ }
+ 
