@@ -1,4 +1,5 @@
 
+*{margin: 0;padding: 0;}
 body{background-color: #f3f1ff;   font-family :'Noto Sans KR', sans-serif;}
 main{display: flex;
       flex-direction: column;
@@ -10,6 +11,18 @@ p,a{font-size: 17px;font-weight:500;
     font-family: 'Times New Roman', Times, serif;color: blue;}      
     p{color:maroon;}
 
+  /* hedar-start */
+     
+nav{background-color: #562eff;height: 90px;padding: 0px;width: 100%;margin: 0;
+    display: flex;justify-content: space-between; }
+ 
+ .hedar-main{display: flex;}
+.symbol{font-size: 48px;padding:7px 10px;padding-left: 230px;}
+
+.header-title h2{color:#ffffff;font-size: 29px;font-family:monospace;font-weight: 400;
+             padding: 23px 0px}
+.nav-img img{width: 66px;height: 66px;border-radius: 40px;}
+
 /* players main */
 
   .s-title{color: #562eff;padding-bottom: 40px;
@@ -20,7 +33,8 @@ p,a{font-size: 17px;font-weight:500;
            font-family: 'Noto Sans KR', sans-serif ;
            padding:31px;
            box-sizing: border-box;
-          border-radius: 10px;}  
+          border-radius: 10px;
+          margin-top: 30px;}  
 
  .players{display: grid;
              grid-template-columns: repeat(3,1fr);
@@ -67,12 +81,12 @@ p,a{font-size: 17px;font-weight:500;
        box-sizing: border-box;}
 
 
-  .icon-main{display: flex;align-items: center;justify-content: center;}     
+  .icon-main{display: flex;align-items: center; text-align: left;}     
   .courses-img img{width: 224px;
                 height: 104px;margin: 0 auto;padding-right: 6px;}
 
   .icon{color:orangered;font-size: 16px;}                
-  .duration{color: black;font-size: 12px;}   
+  .duration{color: black;font-size: 12px;background-color: #dcd9f0;border-radius: 10px;padding: 1px;}   
   
   .courses{display: grid;
                grid-template-columns: repeat(3,1fr);}
